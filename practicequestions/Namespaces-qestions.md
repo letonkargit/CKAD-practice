@@ -15,7 +15,7 @@
    **Ans:**
 
        k get pods -A
-4. Create namespace and set the namespace
+4. Create namespace and set the working namespace to created namespace
    
    **Ans:**
 
