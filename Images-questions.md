@@ -1,4 +1,4 @@
-**Images** (user [killerkoda.com](https://killercoda.com/playgrounds/scenario/kubernetes) for practice)
+**Images** (use [killerkoda.com](https://killercoda.com/playgrounds/scenario/kubernetes) for practice)
 1. Given Dockerfile, build it with name "**echosfun**", run with the name "**echowell**" and check **logs** of the container.
    
    **Dockerfile**
