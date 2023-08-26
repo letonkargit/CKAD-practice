@@ -1,2 +1,3 @@
 # CKAD-practice
-This repo will hold practice questions
+- [CKAD Syllabus](https://github.com/letonkargit/CKAD-practice/blob/main/CKAD-Syllabus.md)
+
