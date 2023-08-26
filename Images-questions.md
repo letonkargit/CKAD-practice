@@ -7,7 +7,7 @@
        CMD ["sh","-c","echo well"]
    **Ans :**
 
-   **Build** (docker build -t <imagename> . )
+   **Build** (docker build -t < imagename > . )
    
        docker build -t echosfun .
 
@@ -15,7 +15,7 @@
    
        docker image ls
    
-   **Run** (docker run --name <cotnainername> <imagename>)
+   **Run** (docker run --name < cotnainername > < imagename >)
    
        docker run --name echowell echosfun
    
@@ -51,6 +51,6 @@
    
        docker image ls
 
-   **Delete** the images the(docker rmi <imagename> OR <imageID>)
+   **Delete** the images the(docker rmi < imagename > OR < imageID >)
    
        docker rmi echosfun
