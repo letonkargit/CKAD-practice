@@ -1,5 +1,7 @@
-**Namespaces**(use [killerkoda.com](https://killercoda.com/playgrounds/scenario/kubernetes) for practice)
-- Please user **alias k=kubectl** to assign kubectl alias to k, You can use kubectl as well
+# **Namespaces**(use [killerkoda.com](https://killercoda.com/playgrounds/scenario/kubernetes) for practice)
+
+## Please user **alias k=kubectl** to assign kubectl alias to k, You can use kubectl as well
+
 1. List all namespaces
 
    **Ans:**
