@@ -5,5 +5,6 @@ This repo will have basic information on CKAD, links, basic commands, practice q
 - [Questions on Namespaces](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/Namespaces-qestions.md)
 - [API Deprecation question](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/API%20Deprecation%20question.md)
 - Deployment strategies
-  - [Rolling update question](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/Deployment-rollingupdate.md)
+  - [Rolling update question](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/deployment-questions/Deployment-rollingupdate.md)
+  - [Canary deployment question](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/deployment-questions/Deployment-canary.md)
 
