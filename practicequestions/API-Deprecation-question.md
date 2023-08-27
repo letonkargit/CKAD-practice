@@ -1,5 +1,6 @@
-**API Deprecation**(use [killerkoda.com](https://killercoda.com/playgrounds/scenario/kubernetes) for practice)
-- Please user alias k=kubectl to assign kubectl alias to k, You can use kubectl as well
+# **API Deprecation**(use [killerkoda.com](https://killercoda.com/playgrounds/scenario/kubernetes) for practice)
+
+## Please user alias k=kubectl to assign kubectl alias to k, You can use kubectl as well
 
 1. Consider the given deployment.yaml file, observe incorrect apiVersion, get the correct version for deployment resource, fix the deployment.yaml and create the deployment
 
