@@ -34,9 +34,7 @@ deployment.yaml
             imagePullPolicy: IfNotPresent
             name: nginx
           restartPolicy: Always
-      readyReplicas: 10
       replicas: 10
-      updatedReplicas: 10
 
 service.yaml
 
