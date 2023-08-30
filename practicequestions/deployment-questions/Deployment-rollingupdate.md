@@ -46,9 +46,6 @@ service.yaml
       name: rollingservice
       namespace: default
     spec:
-      clusterIP: 10.105.230.232
-      clusterIPs:
-      - 10.105.230.232
       ports:
       - port: 80
         protocol: TCP
@@ -56,8 +53,6 @@ service.yaml
       selector:
         app: rollingdeployment
       type: ClusterIP
-    status:
-      loadBalancer: {}
 
   **Ans:**
   
