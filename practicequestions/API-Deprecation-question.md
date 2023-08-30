@@ -4,28 +4,28 @@
 
 1. Consider the given deployment.yaml file, observe incorrect apiVersion, get the correct version for deployment resource, fix the deployment.yaml and create the deployment
 
-  deployment.yaml
-  
-      apiVersion: apps/v2
-      kind: Deployment
-      metadata:
-        labels:
-          app: apidepdeploymet
-        name: apidepdeploymet
-      spec:
-        replicas: 1
-        selector:
-          matchLabels:
+    deployment.yaml
+    
+        apiVersion: apps/v2
+        kind: Deployment
+        metadata:
+          labels:
             app: apidepdeploymet
-        strategy: {}
-        template:
-          metadata:
-            labels:
+          name: apidepdeploymet
+        spec:
+          replicas: 1
+          selector:
+            matchLabels:
               app: apidepdeploymet
-          spec:
-            containers:
-            - image: nginx
-              name: nginx
+          strategy: {}
+          template:
+            metadata:
+              labels:
+                app: apidepdeploymet
+            spec:
+              containers:
+              - image: nginx
+                name: nginx
 
 <Details><summary>Answer</summary>
 
