@@ -54,9 +54,9 @@ service.yaml
         app: practicedep
       type: ClusterIP
 
-  **Ans:**
-  
-  Firstly(optional step anyways), let us check if given deployment and service work correctly -
+  <Details><summary>Answer</summary>
+     
+   Firstly(optional step anyways), let us check if given deployment and service work correctly -
 
       k run temppod --image=nginx:alpine --restart=Never --rm -i -- curl http://rollingservice:80
 
@@ -196,3 +196,4 @@ service.yaml
          rollingdeployment-67bdf44b4-k989f       1/1     Running   0          7m13s   app=practicedep,pod-template-hash=67bdf44b4
          rollingdeployment-67bdf44b4-np57s       1/1     Running   0          7m13s   app=practicedep,pod-template-hash=67bdf44b4
          rollingdeployment-67bdf44b4-tsjgh       1/1     Running   0          7m13s   app=practicedep,pod-template-hash=67bdf44b4
+</Details>
