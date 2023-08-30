@@ -4,22 +4,25 @@
 
 1. List all namespaces
 
-   **Ans:**
+   <Details><summary>Answer</summary>
 
        k get ns
-2. List resources in particular namespace
+   </Details>
+3. List resources in particular namespace
    
-   **Ans:**
+   <Details><summary>Answer</summary>
 
        k get pods -n default
-3. List resources from all namespaces
+   </Details>
+5. List resources from all namespaces
    
-   **Ans:**
+   <Details><summary>Answer</summary>
 
        k get pods -A
-4. Create namespace and set the working namespace to created namespace
+   </Details>
+7. Create namespace and set the working namespace to created namespace
    
-   **Ans:**
+   <Details><summary>Answer</summary>
 
    **Create** namespace
    
@@ -34,3 +37,4 @@
 
        alias setns="k config set-context --current --namespace"
        setns practiceenough
+   </Details>
