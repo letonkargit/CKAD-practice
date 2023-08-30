@@ -6,7 +6,7 @@
    
        FROM nginx:alpine
        CMD ["sh","-c","echo well"]
-   **Ans :**
+   <Details><summary>Answer</summary>
 
    **Build** (docker build -t < imagename > . )
    
@@ -23,10 +23,10 @@
    Get **logs** (docker logs <containername>)
    
        docker logs echowell
-   
+   </Details>
 2. Update the Dockerfile, to echo "hello after update", take build and run the image
 
-   **Ans :**
+   <Details><summary>Answer</summary>
 
    **Edit** the Dockerfile
    
@@ -34,19 +34,19 @@
        CMD ["sh","-c","echo hello after update"]
 
    _Follow same commands from earlier to take the build, run and check the logs_
-   
+   </Details>
 3. See all processes(Sample output attached)
 
-   **Ans:**
+   <Details><summary>Answer</summary>
    
        docker ps -a
 
        CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
        380d0e8567fc   669       "/docker-entrypoint.…"   3 minutes ago   Exited (0) 3 minutes ago             recursing_snyder
-   
-5. Remove the image created
+   </Details>
+4. Remove the image created
 
-   **Ans:**
+   <Details><summary>Answer</summary>
 
    **Get** the list of images the
    
@@ -55,3 +55,4 @@
    **Delete** the image(docker rmi < imagename > OR < imageID >)
    
        docker rmi echosfun
+   </Details>
