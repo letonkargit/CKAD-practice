@@ -53,7 +53,7 @@ service.yaml
         app: practicedep
       type: ClusterIP
 
-  **Ans:**
+<Details><summary>Answer</summary>
   
   Firstly(optional step anyways), let us check if given deployment and service work correctly -
 
@@ -130,3 +130,5 @@ service.yaml
   Now, make sure to retest the service
 
       k run temppod --image=nginx:alpine --restart=Never --rm -i -- curl http://rollingservice:80
+
+</Details>
