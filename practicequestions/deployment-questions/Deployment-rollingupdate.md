@@ -18,7 +18,7 @@ deployment.yaml
       replicas: 10
       selector:
         matchLabels:
-          app: rollingdeployment
+          app: practicedep
       strategy:
         rollingUpdate:
           maxSurge: 25%
@@ -27,14 +27,13 @@ deployment.yaml
       template:
         metadata:
           labels:
-            app: rollingdeployment
+            app: practicedep
         spec:
           containers:
           - image: nginx:1.14.1
             imagePullPolicy: IfNotPresent
             name: nginx
           restartPolicy: Always
-      replicas: 10
 
 service.yaml
 
@@ -42,7 +41,7 @@ service.yaml
     kind: Service
     metadata:
       labels:
-        app: rollingdeployment
+        app: rollingservice 
       name: rollingservice
       namespace: default
     spec:
@@ -51,7 +50,7 @@ service.yaml
         protocol: TCP
         targetPort: 80
       selector:
-        app: rollingdeployment
+        app: practicedep
       type: ClusterIP
 
   **Ans:**
