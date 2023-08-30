@@ -27,7 +27,7 @@
             - image: nginx
               name: nginx
 
-  **Ans:**
+<Details><summary>Answer</summary>
 
   **Get** the group and version information for deployment
 
@@ -38,3 +38,5 @@
   **Create** the deployment
 
       k create -f deployment.yaml
+
+</Details>
