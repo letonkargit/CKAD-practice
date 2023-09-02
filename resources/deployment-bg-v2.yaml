@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: bgdeployment
+  name: newbgdeployment
+  namespace: default
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: practicedep
+      version: v2
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: practicedep
+        version: v2
+    spec:
+      containers:
+      - image: nginx:1.14.2
+        imagePullPolicy: IfNotPresent
+        name: nginx
+      restartPolicy: Always
