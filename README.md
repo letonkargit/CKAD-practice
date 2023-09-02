@@ -7,4 +7,5 @@ This repo will have basic information on CKAD, links, basic commands, practice q
 - Deployment strategies
   - [Rolling update question](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/deployment-questions/Deployment-rollingupdate.md)
   - [Canary deployment question](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/deployment-questions/Deployment-canary.md)
+  - [Blue Green deployment question](https://github.com/letonkargit/CKAD-practice/blob/main/practicequestions/deployment-questions/Deployment-blue-green.md)
 
